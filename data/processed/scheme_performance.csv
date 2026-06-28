@@ -1,7 +1,41 @@
 amfi_code,scheme_name,return_1y,return_3y,return_5y,expense_ratio,anomaly_flag
-118632,Nippon India Large Cap Fund,18.5,15.2,14.1,0.85,0
-119092,Axis Bluechip Fund,12.3,11.8,10.9,2.1,0
-119551,SBI Bluechip Fund,,14.5,13.2,0.05,1
-120503,ICICI Prudential Bluechip Fund,16.8,15.6,14.8,1.45,0
-120841,Kotak Bluechip Fund,14.2,13.9,12.5,3.1,0
-125497,HDFC Top 100 Fund,135.0,12.4,11.7,1.2,1
+100001,SBI Large Cap Fund - Regular Growth (100001),23.77,15.24,9.8,1.13,0
+100002,HDFC Mid Cap Fund - Direct Growth (100002),15.59,10.08,12.87,1.33,0
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),12.38,14.85,12.41,0.79,0
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),12.12,15.53,12.28,1.94,0
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),112.5,8.82,11.17,1.21,1
+100006,Axis Mid Cap Fund - Direct Growth (100006),22.57,16.49,11.29,1.3,0
+100007,UTI Small Cap Fund - Regular Growth (100007),18.11,11.34,12.35,1.41,0
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),15.09,11.72,11.16,2.13,0
+100009,SBI Large Cap Fund - Regular Growth (100009),21.79,13.89,11.37,1.02,0
+100010,HDFC Mid Cap Fund - Direct Growth (100010),20.74,14.03,15.92,1.46,0
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),14.76,14.11,14.63,1.22,0
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),12.69,15.83,8.76,1.61,0
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),19.19,9.18,9.94,1.09,0
+100014,Axis Mid Cap Fund - Direct Growth (100014),19.31,14.75,13.93,1.2,0
+100015,UTI Small Cap Fund - Regular Growth (100015),23.67,15.1,11.14,2.1,0
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),22.6,19.17,13.09,1.43,0
+100017,SBI Large Cap Fund - Regular Growth (100017),14.71,12.35,13.99,0.85,0
+100018,HDFC Mid Cap Fund - Direct Growth (100018),16.21,,15.0,0.97,1
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),17.93,12.06,14.42,1.34,0
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),16.07,16.81,13.56,2.13,0
+100021,Kotak Mahindra Liquid Fund - Regular Growth (100021),7.07,6.73,6.31,0.34,0
+100022,Axis Gilt Fund - Direct Growth (100022),6.76,6.07,6.35,0.57,0
+100023,UTI Corporate Bond Fund - Regular Growth (100023),6.34,6.63,6.58,0.57,0
+100024,Aditya Birla Sun Life Liquid Fund - Direct Growth (100024),5.7,6.1,6.34,0.51,0
+100025,SBI Gilt Fund - Regular Growth (100025),8.02,6.73,6.38,0.2,0
+100026,HDFC Corporate Bond Fund - Direct Growth (100026),6.26,7.22,6.66,0.62,0
+100027,ICICI Prudential Liquid Fund - Regular Growth (100027),6.68,6.21,6.52,0.44,0
+100028,Nippon India Gilt Fund - Direct Growth (100028),7.32,6.5,5.7,0.61,0
+100029,Kotak Mahindra Corporate Bond Fund - Regular Growth (100029),6.99,6.77,5.98,0.73,0
+100030,Axis Liquid Fund - Direct Growth (100030),7.41,6.98,7.07,0.34,0
+100031,UTI Balanced Advantage Fund - Regular Growth (100031),12.92,8.87,9.88,0.97,0
+100032,Aditya Birla Sun Life Aggressive Hybrid Fund - Direct Growth (100032),13.29,15.43,8.4,1.43,0
+100033,SBI Balanced Advantage Fund - Regular Growth (100033),13.12,9.01,9.82,0.67,0
+100034,HDFC Aggressive Hybrid Fund - Direct Growth (100034),11.44,9.07,9.98,0.76,0
+100035,ICICI Prudential Balanced Advantage Fund - Regular Growth (100035),11.27,10.66,8.9,1.47,0
+100036,Nippon India Aggressive Hybrid Fund - Direct Growth (100036),13.69,11.74,11.03,1.53,0
+100037,Kotak Mahindra Retirement Fund Fund - Regular Growth (100037),9.19,12.29,10.67,1.14,0
+100038,Axis Childrens Fund Fund - Direct Growth (100038),8.06,9.34,9.37,1.75,0
+100039,UTI Nifty 50 ETF Fund - Regular Growth (100039),15.08,16.67,14.17,0.08,0
+100040,Aditya Birla Sun Life Gold ETF Fund - Direct Growth (100040),11.65,13.37,11.71,0.24,0

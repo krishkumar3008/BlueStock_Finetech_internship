@@ -1,6 +1,8 @@
 import pandas as pd
+# pyrefly: ignore [missing-import]
 import numpy as np
 import sqlite3
+# pyrefly: ignore [missing-import]
 from sqlalchemy import create_engine, text
 
 def load_db():

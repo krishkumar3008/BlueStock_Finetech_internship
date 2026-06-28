@@ -1,7 +1,41 @@
 amfi_code,fund_name,fund_house,category,sub_category,risk_grade,launch_date,aum_amount_crores
-118632,Nippon India Large Cap Fund,Nippon India Mutual Fund,Equity,Large Cap,Very High,2013-01-07,25000.5
-119092,Axis Bluechip Fund,Axis Mutual Fund,Equity,Large Cap,Very High,2013-01-05,32000.75
-119551,SBI Bluechip Fund,SBI Mutual Fund,Equity,Large Cap,Very High,2006-02-14,41000.2
-120503,ICICI Prudential Bluechip Fund,ICICI Prudential Mutual Fund,Equity,Large Cap,Very High,2008-05-23,48000.6
-120841,Kotak Bluechip Fund,Kotak Mahindra Mutual Fund,Equity,Large Cap,Very High,2013-01-01,7200.45
-125497,HDFC Top 100 Fund,HDFC Mutual Fund,Equity,Large Cap,Very High,2013-01-01,30000.3
+100001,SBI Large Cap Fund - Regular Growth (100001),SBI Mutual Fund,Equity,Large Cap,Very High,2016-04-15,123199.39
+100002,HDFC Mid Cap Fund - Direct Growth (100002),HDFC Mutual Fund,Equity,Mid Cap,High,2014-07-26,11239.78
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),ICICI Prudential Mutual Fund,Equity,Small Cap,Very High,2020-11-24,18348.34
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Nippon India Mutual Fund,Equity,Flexi Cap,High,2017-08-03,5823.38
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Kotak Mahindra Mutual Fund,Equity,Large Cap,Very High,2011-08-12,42542.11
+100006,Axis Mid Cap Fund - Direct Growth (100006),Axis Mutual Fund,Equity,Mid Cap,High,2011-12-21,29699.26
+100007,UTI Small Cap Fund - Regular Growth (100007),UTI Mutual Fund,Equity,Small Cap,Very High,2019-06-12,5922.5
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Aditya Birla Sun Life Mutual Fund,Equity,Flexi Cap,High,2020-11-10,6866.63
+100009,SBI Large Cap Fund - Regular Growth (100009),SBI Mutual Fund,Equity,Large Cap,Very High,2012-12-23,148323.09
+100010,HDFC Mid Cap Fund - Direct Growth (100010),HDFC Mutual Fund,Equity,Mid Cap,High,2018-03-05,29301.79
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),ICICI Prudential Mutual Fund,Equity,Small Cap,Very High,2014-09-07,5530.6
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Nippon India Mutual Fund,Equity,Flexi Cap,High,2018-12-14,37335.89
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Kotak Mahindra Mutual Fund,Equity,Large Cap,Very High,2018-10-21,14235.75
+100014,Axis Mid Cap Fund - Direct Growth (100014),Axis Mutual Fund,Equity,Mid Cap,High,2016-12-08,6375.54
+100015,UTI Small Cap Fund - Regular Growth (100015),UTI Mutual Fund,Equity,Small Cap,Very High,2010-04-18,31500.89
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Aditya Birla Sun Life Mutual Fund,Equity,Flexi Cap,High,2011-06-22,26868.41
+100017,SBI Large Cap Fund - Regular Growth (100017),SBI Mutual Fund,Equity,Large Cap,Very High,2015-02-26,94975.41
+100018,HDFC Mid Cap Fund - Direct Growth (100018),HDFC Mutual Fund,Equity,Mid Cap,High,2019-04-14,34090.88
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),ICICI Prudential Mutual Fund,Equity,Small Cap,Very High,2017-07-25,43446.88
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Nippon India Mutual Fund,Equity,Flexi Cap,High,2014-02-15,38149.5
+100021,Kotak Mahindra Liquid Fund - Regular Growth (100021),Kotak Mahindra Mutual Fund,Debt,Liquid,Low,2019-09-13,10636.97
+100022,Axis Gilt Fund - Direct Growth (100022),Axis Mutual Fund,Debt,Gilt,Low to Moderate,2010-09-07,21936.06
+100023,UTI Corporate Bond Fund - Regular Growth (100023),UTI Mutual Fund,Debt,Corporate Bond,Moderate,2010-12-08,5220.88
+100024,Aditya Birla Sun Life Liquid Fund - Direct Growth (100024),Aditya Birla Sun Life Mutual Fund,Debt,Liquid,Low,2020-03-17,33453.68
+100025,SBI Gilt Fund - Regular Growth (100025),SBI Mutual Fund,Debt,Gilt,Low to Moderate,2012-01-27,57404.47
+100026,HDFC Corporate Bond Fund - Direct Growth (100026),HDFC Mutual Fund,Debt,Corporate Bond,Moderate,2016-10-09,41598.39
+100027,ICICI Prudential Liquid Fund - Regular Growth (100027),ICICI Prudential Mutual Fund,Debt,Liquid,Low,2018-08-12,18235.92
+100028,Nippon India Gilt Fund - Direct Growth (100028),Nippon India Mutual Fund,Debt,Gilt,Low to Moderate,2016-07-24,31636.89
+100029,Kotak Mahindra Corporate Bond Fund - Regular Growth (100029),Kotak Mahindra Mutual Fund,Debt,Corporate Bond,Moderate,2017-06-27,27449.74
+100030,Axis Liquid Fund - Direct Growth (100030),Axis Mutual Fund,Debt,Liquid,Low,2012-05-15,33529.79
+100031,UTI Balanced Advantage Fund - Regular Growth (100031),UTI Mutual Fund,Hybrid,Balanced Advantage,Moderately High,2010-05-26,14439.4
+100032,Aditya Birla Sun Life Aggressive Hybrid Fund - Direct Growth (100032),Aditya Birla Sun Life Mutual Fund,Hybrid,Aggressive Hybrid,High,2016-11-09,33426.52
+100033,SBI Balanced Advantage Fund - Regular Growth (100033),SBI Mutual Fund,Hybrid,Balanced Advantage,Moderately High,2019-10-13,70171.92
+100034,HDFC Aggressive Hybrid Fund - Direct Growth (100034),HDFC Mutual Fund,Hybrid,Aggressive Hybrid,High,2016-01-20,27531.02
+100035,ICICI Prudential Balanced Advantage Fund - Regular Growth (100035),ICICI Prudential Mutual Fund,Hybrid,Balanced Advantage,Moderately High,2013-05-23,29176.7
+100036,Nippon India Aggressive Hybrid Fund - Direct Growth (100036),Nippon India Mutual Fund,Hybrid,Aggressive Hybrid,High,2020-04-13,8079.2
+100037,Kotak Mahindra Retirement Fund Fund - Regular Growth (100037),Kotak Mahindra Mutual Fund,Solution Oriented,Retirement Fund,Moderately High,2020-03-22,40218.71
+100038,Axis Childrens Fund Fund - Direct Growth (100038),Axis Mutual Fund,Solution Oriented,Childrens Fund,High,2019-09-21,39858.42
+100039,UTI Nifty 50 ETF Fund - Regular Growth (100039),UTI Mutual Fund,ETF/Others,Nifty 50 ETF,Very High,2013-11-26,9883.52
+100040,Aditya Birla Sun Life Gold ETF Fund - Direct Growth (100040),Aditya Birla Sun Life Mutual Fund,ETF/Others,Gold ETF,High,2018-07-01,15885.29
