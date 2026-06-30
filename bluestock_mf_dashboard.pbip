@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "settings": {
+    "locale": "en-US"
+  },
+  "report": {
+    "path": "./bluestock_mf_dashboard.Report"
+  }
+}

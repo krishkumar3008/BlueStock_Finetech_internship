@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "theme": "BluestockTheme",
+  "settings": {
+    "layoutType": "Custom",
+    "customWidth": 1280,
+    "customHeight": 720
+  },
+  "pages": [
+    {
+      "name": "Page1",
+      "displayName": "Industry Overview",
+      "visualTemplates": [
+        "AUM Line Chart",
+        "AUM by AMC Bar Chart",
+        "KPI Cards"
+      ]
+    },
+    {
+      "name": "Page2",
+      "displayName": "Fund Performance",
+      "visualTemplates": [
+        "Risk-Return Scatter Plot",
+        "Scorecard Table",
+        "NAV vs Benchmark"
+      ]
+    },
+    {
+      "name": "Page3",
+      "displayName": "Investor Analytics",
+      "visualTemplates": [
+        "Geographic Bar Chart",
+        "SIP/Lumpsum Donut",
+        "Age Group Avg Bar"
+      ]
+    },
+    {
+      "name": "Page4",
+      "displayName": "SIP & Market Trends",
+      "visualTemplates": [
+        "SIP vs Nifty Dual-Axis",
+        "Category Heatmap",
+        "Top 5 Categories"
+      ]
+    }
+  ]
+}

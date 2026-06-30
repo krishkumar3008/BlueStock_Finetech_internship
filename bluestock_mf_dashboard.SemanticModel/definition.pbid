@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "connection": {
+    "type": "SQLite",
+    "details": {
+      "database": "bluestock_mf.db"
+    }
+  }
+}

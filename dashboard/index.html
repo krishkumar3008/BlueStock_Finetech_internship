@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bluestock Mutual Fund Analytics Dashboard</title>
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="https://bluestock.in/static/assets/logo/logo.webp" alt="Bluestock Logo" class="brand-logo">
+      </div>
+      <nav class="nav-menu">
+        <button class="nav-item active" data-target="page-industry">
+          <i class="bi bi-grid-1x2-fill"></i>
+          <span>Industry Overview</span>
+        </button>
+        <button class="nav-item" data-target="page-performance">
+          <i class="bi bi-graph-up-arrow"></i>
+          <span>Fund Performance</span>
+        </button>
+        <button class="nav-item" data-target="page-investors">
+          <i class="bi bi-people-fill"></i>
+          <span>Investor Analytics</span>
+        </button>
+        <button class="nav-item" data-target="page-trends">
+          <i class="bi bi-activity"></i>
+          <span>SIP & Market Trends</span>
+        </button>
+        <!-- HIDDEN Tab for Drill-Through NAV Detail -->
+        <button class="nav-item d-none" id="tab-nav-detail" data-target="page-nav-detail">
+          <i class="bi bi-sliders"></i>
+          <span>NAV Detail Page</span>
+        </button>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="update-time" id="last-updated">Last Updated: June 2026</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Bar / Header -->
+      <header class="top-bar">
+        <div class="header-info">
+          <h1 id="page-title">Industry Overview</h1>
+          <p class="subtitle" id="page-subtitle">Mutual Fund Industry Assets and Growth Metrics (2022–2025)</p>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-primary" onclick="window.print()">
+            <i class="bi bi-download"></i> Export PDF
+          </button>
+        </div>
+      </header>
+
+      <!-- PAGE 1: INDUSTRY OVERVIEW -->
+      <section id="page-industry" class="dashboard-page active">
+        <!-- KPI Cards Grid -->
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-icon icon-aum"><i class="bi bi-currency-rupee"></i></div>
+            <div class="kpi-content">
+              <span class="kpi-label">Total Industry AUM</span>
+              <h3 class="kpi-value">₹81.00L Cr</h3>
+              <span class="kpi-trend trend-up"><i class="bi bi-arrow-up-short"></i> +76.2% vs 2022</span>
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-icon icon-sip"><i class="bi bi-piggy-bank"></i></div>
+            <div class="kpi-content">
+              <span class="kpi-label">Monthly SIP Inflows</span>
+              <h3 class="kpi-value">₹31.00K Cr</h3>
+              <span class="kpi-trend trend-up"><i class="bi bi-arrow-up-short"></i> +174.2% YoY</span>
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-icon icon-folios"><i class="bi bi-folder-check"></i></div>
+            <div class="kpi-content">
+              <span class="kpi-label">Total Retail Folios</span>
+              <h3 class="kpi-value">26.12 Cr</h3>
+              <span class="kpi-trend trend-up"><i class="bi bi-arrow-up-short"></i> +97.0% Growth</span>
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-icon icon-schemes"><i class="bi bi-file-earmark-bar-graph"></i></div>
+            <div class="kpi-content">
+              <span class="kpi-label">Active Schemes</span>
+              <h3 class="kpi-value">1,908</h3>
+              <span class="kpi-trend"><i class="bi bi-dash"></i> Across 44 AMCs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div class="charts-grid-2">
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>Industry AUM Growth Trend (2022–2025)</h3>
+              <p class="chart-subtitle">Aggregate assets under management in INR Lakh Crores</p>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-aum-trend"></canvas>
+            </div>
+          </div>
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>Assets Under Management (AUM) by AMC</h3>
+              <p class="chart-subtitle">Top 8 asset management companies market share (₹ Crores)</p>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-aum-by-amc"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PAGE 2: FUND PERFORMANCE -->
+      <section id="page-performance" class="dashboard-page">
+        <!-- Filter Controls (Slicers) -->
+        <div class="filter-bar">
+          <div class="filter-group">
+            <label for="filter-perf-house">Fund House</label>
+            <select id="filter-perf-house" class="filter-select">
+              <option value="All">All Fund Houses</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-perf-cat">Category</label>
+            <select id="filter-perf-cat" class="filter-select">
+              <option value="All">All Categories</option>
+              <option value="Equity">Equity</option>
+              <option value="Debt">Debt</option>
+              <option value="Hybrid">Hybrid</option>
+              <option value="Solution Oriented">Solution Oriented</option>
+              <option value="ETF/Others">ETF/Others</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-perf-plan">Plan Type</label>
+            <select id="filter-perf-plan" class="filter-select">
+              <option value="All">All Plans</option>
+              <option value="Direct">Direct Plan</option>
+              <option value="Regular">Regular Plan</option>
+            </select>
+          </div>
+          <button class="btn btn-secondary btn-sm" id="btn-reset-perf-filters">
+            <i class="bi bi-arrow-counterclockwise"></i> Reset Filters
+          </button>
+        </div>
+
+        <!-- Upper Row: Charts -->
+        <div class="charts-grid-2">
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>Risk vs Return Profile</h3>
+              <p class="chart-subtitle">1-Year Trailing Return (X) vs Volatility/StdDev (Y) | Bubble Size = AUM</p>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-risk-return"></canvas>
+            </div>
+          </div>
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>NAV Trajectory vs Benchmark (Nifty 50)</h3>
+              <p class="chart-subtitle" id="nav-chart-subtitle">Select a fund from the scorecard table below to plot</p>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-nav-vs-benchmark"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scorecard Table -->
+        <div class="table-container card">
+          <div class="table-header">
+            <h3>Mutual Fund Scorecard</h3>
+            <span class="table-actions">
+              <input type="text" id="search-perf-scorecard" placeholder="Search fund name..." class="table-search">
+            </span>
+          </div>
+          <div class="table-wrapper">
+            <table id="table-scorecard">
+              <thead>
+                <tr>
+                  <th class="sortable" data-sort="fund_name">Scheme Name <i class="bi bi-arrow-down-up"></i></th>
+                  <th class="sortable" data-sort="fund_house">Fund House <i class="bi bi-arrow-down-up"></i></th>
+                  <th class="sortable" data-sort="category">Category <i class="bi bi-arrow-down-up"></i></th>
+                  <th class="sortable" data-sort="aum_amount_crores">AUM (₹ Cr) <i class="bi bi-arrow-down-up"></i></th>
+                  <th class="sortable" data-sort="return_1y">1Y Return (%) <i class="bi bi-arrow-down-up"></i></th>
+                  <th class="sortable" data-sort="return_3y">3Y Return (%) <i class="bi bi-arrow-down-up"></i></th>
+                  <th class="sortable" data-sort="return_5y">5Y Return (%) <i class="bi bi-arrow-down-up"></i></th>
+                  <th class="sortable" data-sort="expense_ratio">Expense Ratio (%) <i class="bi bi-arrow-down-up"></i></th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="table-scorecard-body">
+                <!-- Populated dynamically via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- PAGE 3: INVESTOR ANALYTICS -->
+      <section id="page-investors" class="dashboard-page">
+        <!-- Slicers for Page 3 -->
+        <div class="filter-bar">
+          <div class="filter-group">
+            <label for="filter-inv-state">State</label>
+            <select id="filter-inv-state" class="filter-select">
+              <option value="All">All States</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-inv-age">Age Group</label>
+            <select id="filter-inv-age" class="filter-select">
+              <option value="All">All Age Groups</option>
+              <option value="Under 25">Under 25</option>
+              <option value="25-34">25-34</option>
+              <option value="35-44">35-44</option>
+              <option value="45-54">45-54</option>
+              <option value="55+">55+</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-inv-tier">City Tier</label>
+            <select id="filter-inv-tier" class="filter-select">
+              <option value="All">All Tiers</option>
+              <option value="T30">T30 (Top 30 Cities)</option>
+              <option value="B30">B30 (Beyond 30 Cities)</option>
+            </select>
+          </div>
+          <button class="btn btn-secondary btn-sm" id="btn-reset-inv-filters">
+            <i class="bi bi-arrow-counterclockwise"></i> Reset Filters
+          </button>
+        </div>
+
+        <!-- Demographics Charts Row 1 -->
+        <div class="charts-grid-2">
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>Transaction Volume by State</h3>
+              <p class="chart-subtitle">Aggregated transaction values (₹ Lakhs) by state</p>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-inv-state-amount"></canvas>
+            </div>
+          </div>
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>Transaction Type Distribution</h3>
+              <p class="chart-subtitle">Split of total subscription (SIP / Lumpsum) vs redemption volume</p>
+            </div>
+            <div class="chart-wrapper-donut">
+              <canvas id="chart-inv-type-donut"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demographics Charts Row 2 -->
+        <div class="charts-grid-2">
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>Age Group vs Average SIP Amount</h3>
+              <p class="chart-subtitle">Comparison of monthly SIP tickets across generations (₹)</p>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-inv-age-sip"></canvas>
+            </div>
+          </div>
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>Monthly Transaction Volume</h3>
+              <p class="chart-subtitle">Aggregate monthly transactions count and values trend</p>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-inv-monthly-vol"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PAGE 4: SIP & MARKET TRENDS -->
+      <section id="page-trends" class="dashboard-page">
+        <!-- High-level Insights Box -->
+        <div class="trends-stats-grid">
+          <div class="trend-card">
+            <h4 class="trend-card-title">Top Net Inflow Category (FY25)</h4>
+            <div class="trend-card-val">Equity Large Cap</div>
+            <p class="trend-card-sub">₹52,430 Cr Net Inflow</p>
+          </div>
+          <div class="trend-card">
+            <h4 class="trend-card-title">SIP Market Penetration Growth</h4>
+            <div class="trend-card-val">+174.2%</div>
+            <p class="trend-card-sub">Inflow expanded from 11.3K Cr to 31K Cr</p>
+          </div>
+          <div class="trend-card">
+            <h4 class="trend-card-title">Nifty 50 Correlation Coefficient</h4>
+            <div class="trend-card-val">0.965</div>
+            <p class="trend-card-sub">High alignment between SIPs and market indices</p>
+          </div>
+        </div>
+
+        <!-- Charts Grid Upper Row -->
+        <div class="charts-grid-2">
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>Monthly SIP Inflows vs Nifty 50 Index (2022–2025)</h3>
+              <p class="chart-subtitle">Bar: Monthly Inflow (₹ Crores) | Line: Nifty 50 Close Value</p>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-sip-vs-nifty"></canvas>
+            </div>
+          </div>
+          <div class="chart-container">
+            <div class="chart-header">
+              <h3>Top 5 Categories by Net Inflow (FY25)</h3>
+              <p class="chart-subtitle">Highest positive net asset inflows (₹ Crores)</p>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-top-categories"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Heatmap Grid -->
+        <div class="chart-container">
+          <div class="chart-header">
+            <h3>Category Monthly Net Inflows Heatmap (₹ Crores)</h3>
+            <p class="chart-subtitle">Showing inflows (blue) and outflows (red) across major categories (2022–2025)</p>
+          </div>
+          <div class="heatmap-scroll">
+            <div class="heatmap-wrapper" id="heatmap-container">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PAGE 5: DRILL-THROUGH NAV DETAIL PAGE (Hidden by default, triggered on detail click) -->
+      <section id="page-nav-detail" class="dashboard-page">
+        <button class="btn btn-secondary mb-3" onclick="navigateToPage('page-performance')">
+          <i class="bi bi-arrow-left"></i> Back to Fund Performance
+        </button>
+
+        <div class="detail-grid">
+          <!-- Fund Quick Info Card -->
+          <div class="card detail-header-card">
+            <div class="detail-title-block">
+              <span class="badge" id="detail-category-badge">Equity</span>
+              <h2 id="detail-fund-name">Axis Bluechip Fund</h2>
+              <p class="text-muted" id="detail-amc-info">Axis Mutual Fund | AMFI Code: 119092</p>
+            </div>
+            <div class="detail-kpis">
+              <div class="detail-kpi">
+                <span class="label">Current NAV</span>
+                <span class="value" id="detail-nav-val">₹245.82</span>
+              </div>
+              <div class="detail-kpi">
+                <span class="label">AUM</span>
+                <span class="value" id="detail-aum-val">₹32,000 Cr</span>
+              </div>
+              <div class="detail-kpi">
+                <span class="label">1Y Return</span>
+                <span class="value positive" id="detail-1y-val">12.3%</span>
+              </div>
+              <div class="detail-kpi">
+                <span class="label">Expense Ratio</span>
+                <span class="value" id="detail-er-val">2.1%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Extended Performance Parameters -->
+          <div class="charts-grid-2">
+            <div class="card">
+              <div class="chart-header">
+                <h3>Historical NAV Timeline</h3>
+                <p class="chart-subtitle">Daily growth of NAV price relative to launch base value</p>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chart-detail-nav-history"></canvas>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="chart-header">
+                <h3>Key Information & Risk Profile</h3>
+              </div>
+              <div class="detail-specs">
+                <div class="spec-row">
+                  <span class="spec-label">Sub-Category</span>
+                  <span class="spec-val" id="detail-sub-cat">Large Cap</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label">AMFI Risk Grade</span>
+                  <span class="spec-val font-semibold text-danger" id="detail-risk-grade">Very High</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label">Launch Date</span>
+                  <span class="spec-val" id="detail-launch-date">2013-01-05</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label">Expense Ratio</span>
+                  <span class="spec-val" id="detail-spec-er">2.10%</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label">Anomaly Flag</span>
+                  <span class="spec-val badge" id="detail-anomaly-flag">None</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Data Script -->
+  <script src="data.js"></script>
+  <!-- Application JS -->
+  <script src="app.js"></script>
+</body>
+</html>

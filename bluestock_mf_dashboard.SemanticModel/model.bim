@@ -1,0 +1,314 @@
+{
+  "name": "bluestock_mf_dashboard",
+  "compatibilityLevel": 1560,
+  "model": {
+    "culture": "en-US",
+    "dataSources": [
+      {
+        "type": "Structured",
+        "name": "SQLiteDatabase",
+        "connectionDetails": {
+          "path": "bluestock_mf.db"
+        }
+      }
+    ],
+    "tables": [
+      {
+        "name": "dim_fund",
+        "columns": [
+          {
+            "name": "amfi_code",
+            "dataType": "int64",
+            "sourceColumn": "amfi_code"
+          },
+          {
+            "name": "fund_name",
+            "dataType": "string",
+            "sourceColumn": "fund_name"
+          },
+          {
+            "name": "fund_house",
+            "dataType": "string",
+            "sourceColumn": "fund_house"
+          },
+          {
+            "name": "category",
+            "dataType": "string",
+            "sourceColumn": "category"
+          },
+          {
+            "name": "sub_category",
+            "dataType": "string",
+            "sourceColumn": "sub_category"
+          },
+          {
+            "name": "risk_grade",
+            "dataType": "string",
+            "sourceColumn": "risk_grade"
+          },
+          {
+            "name": "launch_date",
+            "dataType": "dateTime",
+            "sourceColumn": "launch_date"
+          }
+        ]
+      },
+      {
+        "name": "dim_date",
+        "columns": [
+          {
+            "name": "date",
+            "dataType": "string",
+            "sourceColumn": "date"
+          },
+          {
+            "name": "day",
+            "dataType": "int64",
+            "sourceColumn": "day"
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "sourceColumn": "month"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year"
+          },
+          {
+            "name": "quarter",
+            "dataType": "int64",
+            "sourceColumn": "quarter"
+          },
+          {
+            "name": "day_of_week",
+            "dataType": "string",
+            "sourceColumn": "day_of_week"
+          },
+          {
+            "name": "is_weekend",
+            "dataType": "int64",
+            "sourceColumn": "is_weekend"
+          }
+        ]
+      },
+      {
+        "name": "fact_nav",
+        "columns": [
+          {
+            "name": "amfi_code",
+            "dataType": "int64",
+            "sourceColumn": "amfi_code"
+          },
+          {
+            "name": "date",
+            "dataType": "string",
+            "sourceColumn": "date"
+          },
+          {
+            "name": "nav",
+            "dataType": "double",
+            "sourceColumn": "nav"
+          }
+        ]
+      },
+      {
+        "name": "fact_transactions",
+        "columns": [
+          {
+            "name": "transaction_id",
+            "dataType": "string",
+            "sourceColumn": "transaction_id"
+          },
+          {
+            "name": "investor_id",
+            "dataType": "string",
+            "sourceColumn": "investor_id"
+          },
+          {
+            "name": "investor_name",
+            "dataType": "string",
+            "sourceColumn": "investor_name"
+          },
+          {
+            "name": "state",
+            "dataType": "string",
+            "sourceColumn": "state"
+          },
+          {
+            "name": "amfi_code",
+            "dataType": "int64",
+            "sourceColumn": "amfi_code"
+          },
+          {
+            "name": "transaction_date",
+            "dataType": "string",
+            "sourceColumn": "transaction_date"
+          },
+          {
+            "name": "transaction_type",
+            "dataType": "string",
+            "sourceColumn": "transaction_type"
+          },
+          {
+            "name": "amount",
+            "dataType": "double",
+            "sourceColumn": "amount"
+          },
+          {
+            "name": "kyc_status",
+            "dataType": "string",
+            "sourceColumn": "kyc_status"
+          },
+          {
+            "name": "units",
+            "dataType": "double",
+            "sourceColumn": "units"
+          }
+        ]
+      },
+      {
+        "name": "fact_performance",
+        "columns": [
+          {
+            "name": "amfi_code",
+            "dataType": "int64",
+            "sourceColumn": "amfi_code"
+          },
+          {
+            "name": "return_1y",
+            "dataType": "double",
+            "sourceColumn": "return_1y"
+          },
+          {
+            "name": "return_3y",
+            "dataType": "double",
+            "sourceColumn": "return_3y"
+          },
+          {
+            "name": "return_5y",
+            "dataType": "double",
+            "sourceColumn": "return_5y"
+          },
+          {
+            "name": "expense_ratio",
+            "dataType": "double",
+            "sourceColumn": "expense_ratio"
+          },
+          {
+            "name": "anomaly_flag",
+            "dataType": "int64",
+            "sourceColumn": "anomaly_flag"
+          }
+        ]
+      },
+      {
+        "name": "fact_aum",
+        "columns": [
+          {
+            "name": "amfi_code",
+            "dataType": "int64",
+            "sourceColumn": "amfi_code"
+          },
+          {
+            "name": "aum_amount",
+            "dataType": "double",
+            "sourceColumn": "aum_amount"
+          },
+          {
+            "name": "last_updated_date",
+            "dataType": "string",
+            "sourceColumn": "last_updated_date"
+          }
+        ]
+      },
+      {
+        "name": "fact_aum_history",
+        "columns": [
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year"
+          },
+          {
+            "name": "fund_house",
+            "dataType": "string",
+            "sourceColumn": "fund_house"
+          },
+          {
+            "name": "aum_amount_crores",
+            "dataType": "double",
+            "sourceColumn": "aum_amount_crores"
+          }
+        ]
+      },
+      {
+        "name": "fact_sip_inflows",
+        "columns": [
+          {
+            "name": "month",
+            "dataType": "string",
+            "sourceColumn": "month"
+          },
+          {
+            "name": "sip_amount_crores",
+            "dataType": "double",
+            "sourceColumn": "sip_amount_crores"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "rel_fund_nav",
+        "fromTable": "fact_nav",
+        "fromColumn": "amfi_code",
+        "toTable": "dim_fund",
+        "toColumn": "amfi_code"
+      },
+      {
+        "name": "rel_fund_txn",
+        "fromTable": "fact_transactions",
+        "fromColumn": "amfi_code",
+        "toTable": "dim_fund",
+        "toColumn": "amfi_code"
+      },
+      {
+        "name": "rel_fund_perf",
+        "fromTable": "fact_performance",
+        "fromColumn": "amfi_code",
+        "toTable": "dim_fund",
+        "toColumn": "amfi_code"
+      },
+      {
+        "name": "rel_fund_aum",
+        "fromTable": "fact_aum",
+        "fromColumn": "amfi_code",
+        "toTable": "dim_fund",
+        "toColumn": "amfi_code"
+      },
+      {
+        "name": "rel_date_nav",
+        "fromTable": "fact_nav",
+        "fromColumn": "date",
+        "toTable": "dim_date",
+        "toColumn": "date"
+      },
+      {
+        "name": "rel_date_txn",
+        "fromTable": "fact_transactions",
+        "fromColumn": "transaction_date",
+        "toTable": "dim_date",
+        "toColumn": "date"
+      },
+      {
+        "name": "rel_date_aum",
+        "fromTable": "fact_aum",
+        "fromColumn": "last_updated_date",
+        "toTable": "dim_date",
+        "toColumn": "date"
+      }
+    ]
+  }
+}
