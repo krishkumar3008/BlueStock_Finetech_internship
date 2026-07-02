@@ -1,327 +1,327 @@
 amfi_code,fund_name,stock_name,sector,weight_pct
-100001,SBI Large Cap Fund - Regular Growth (100001),Adani Ports,Services,3.5165
-100001,SBI Large Cap Fund - Regular Growth (100001),Hindalco,Metals,0.539
-100001,SBI Large Cap Fund - Regular Growth (100001),ICICI Bank,Financial Services,0.8724
-100001,SBI Large Cap Fund - Regular Growth (100001),GAIL,Oil & Gas,3.9702
-100001,SBI Large Cap Fund - Regular Growth (100001),Grasim Industries,Construction,2.1065
-100001,SBI Large Cap Fund - Regular Growth (100001),SBI,Financial Services,1.2155
-100001,SBI Large Cap Fund - Regular Growth (100001),Bharti Airtel,Telecom,17.8099
-100001,SBI Large Cap Fund - Regular Growth (100001),Reliance Industries,Oil & Gas,10.2056
-100001,SBI Large Cap Fund - Regular Growth (100001),IOC,Oil & Gas,2.9351
-100001,SBI Large Cap Fund - Regular Growth (100001),Kotak Mahindra Bank,Financial Services,10.6876
-100001,SBI Large Cap Fund - Regular Growth (100001),Tech Mahindra,Information Technology,0.3198
-100001,SBI Large Cap Fund - Regular Growth (100001),DLF,Construction,0.5452
-100001,SBI Large Cap Fund - Regular Growth (100001),Infosys,Information Technology,15.4277
-100001,SBI Large Cap Fund - Regular Growth (100001),Coal India,Metals,6.0898
-100001,SBI Large Cap Fund - Regular Growth (100001),HDFC Bank,Financial Services,7.5397
-100001,SBI Large Cap Fund - Regular Growth (100001),Asian Paints,Consumer Goods,9.3336
-100001,SBI Large Cap Fund - Regular Growth (100001),Hindustan Unilever,Consumer Goods,0.2853
-100001,SBI Large Cap Fund - Regular Growth (100001),Mahindra & Mahindra,Automobile,6.6005
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Adani Ports,Services,9.5568
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Hindalco,Metals,27.5943
-100002,HDFC Mid Cap Fund - Direct Growth (100002),ICICI Bank,Financial Services,5.211
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Titan Company,Consumer Goods,7.5601
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Bajaj Finance,Financial Services,0.8401
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Bharti Airtel,Telecom,1.2578
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Axis Bank,Financial Services,1.9649
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Dr Reddys,Healthcare,0.4164
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Bajaj Auto,Automobile,3.9104
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Infosys,Information Technology,22.5125
-100002,HDFC Mid Cap Fund - Direct Growth (100002),TCS,Information Technology,7.8887
-100002,HDFC Mid Cap Fund - Direct Growth (100002),HDFC Bank,Financial Services,4.2699
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Grasim Industries,Construction,5.0766
-100002,HDFC Mid Cap Fund - Direct Growth (100002),LTIMindtree,Information Technology,1.182
-100002,HDFC Mid Cap Fund - Direct Growth (100002),Hindustan Unilever,Consumer Goods,0.7585
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Hindalco,Metals,18.7673
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Bajaj Finance,Financial Services,1.7676
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),ICICI Bank,Financial Services,0.3446
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Eicher Motors,Automobile,6.3947
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),SBI,Financial Services,12.0648
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Titan Company,Consumer Goods,5.9894
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Axis Bank,Financial Services,4.9935
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Kotak Mahindra Bank,Financial Services,4.1007
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Dr Reddys,Healthcare,8.931
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Tata Motors,Automobile,23.9215
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Infosys,Information Technology,2.6758
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Max Healthcare,Healthcare,2.9782
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),BPCL,Oil & Gas,0.4913
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Zomato,Services,1.2814
-100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),UltraTech Cement,Construction,5.2981
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Cipla,Healthcare,13.2575
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),ICICI Bank,Financial Services,9.2141
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Titan Company,Consumer Goods,0.112
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),HCL Tech,Information Technology,6.1136
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),GAIL,Oil & Gas,13.4998
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Bajaj Finance,Financial Services,6.6317
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),ONGC,Oil & Gas,4.6462
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Infosys,Information Technology,1.1149
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),TCS,Information Technology,17.3321
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Coal India,Metals,5.6735
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),HDFC Bank,Financial Services,0.6138
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),LTIMindtree,Information Technology,15.1351
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Apollo Hospitals,Healthcare,4.1894
+100001,SBI Large Cap Fund - Regular Growth (100001),GAIL,Oil & Gas,3.5165
+100001,SBI Large Cap Fund - Regular Growth (100001),HDFC Bank,Financial Services,0.539
+100001,SBI Large Cap Fund - Regular Growth (100001),Hindustan Unilever,Consumer Goods,0.8724
+100001,SBI Large Cap Fund - Regular Growth (100001),IOC,Oil & Gas,3.9702
+100001,SBI Large Cap Fund - Regular Growth (100001),ICICI Bank,Financial Services,2.1065
+100001,SBI Large Cap Fund - Regular Growth (100001),Asian Paints,Consumer Goods,1.2155
+100001,SBI Large Cap Fund - Regular Growth (100001),Adani Ports,Services,17.8099
+100001,SBI Large Cap Fund - Regular Growth (100001),Tech Mahindra,Information Technology,10.2056
+100001,SBI Large Cap Fund - Regular Growth (100001),Kotak Mahindra Bank,Financial Services,2.9351
+100001,SBI Large Cap Fund - Regular Growth (100001),Grasim Industries,Construction,10.6876
+100001,SBI Large Cap Fund - Regular Growth (100001),Mahindra & Mahindra,Automobile,0.3198
+100001,SBI Large Cap Fund - Regular Growth (100001),Bharti Airtel,Telecom,0.5452
+100001,SBI Large Cap Fund - Regular Growth (100001),Coal India,Metals,15.4277
+100001,SBI Large Cap Fund - Regular Growth (100001),SBI,Financial Services,6.0898
+100001,SBI Large Cap Fund - Regular Growth (100001),Infosys,Information Technology,7.5397
+100001,SBI Large Cap Fund - Regular Growth (100001),Reliance Industries,Oil & Gas,9.3336
+100001,SBI Large Cap Fund - Regular Growth (100001),Hindalco,Metals,0.2853
+100001,SBI Large Cap Fund - Regular Growth (100001),DLF,Construction,6.6005
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Bajaj Finance,Financial Services,9.5568
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Bajaj Auto,Automobile,27.5943
+100002,HDFC Mid Cap Fund - Direct Growth (100002),TCS,Information Technology,5.211
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Dr Reddys,Healthcare,7.5601
+100002,HDFC Mid Cap Fund - Direct Growth (100002),HDFC Bank,Financial Services,0.8401
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Adani Ports,Services,1.2578
+100002,HDFC Mid Cap Fund - Direct Growth (100002),ICICI Bank,Financial Services,1.9649
+100002,HDFC Mid Cap Fund - Direct Growth (100002),LTIMindtree,Information Technology,0.4164
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Axis Bank,Financial Services,3.9104
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Titan Company,Consumer Goods,22.5125
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Grasim Industries,Construction,7.8887
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Bharti Airtel,Telecom,4.2699
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Infosys,Information Technology,5.0766
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Hindustan Unilever,Consumer Goods,1.182
+100002,HDFC Mid Cap Fund - Direct Growth (100002),Hindalco,Metals,0.7585
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Bajaj Finance,Financial Services,18.7673
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),BPCL,Oil & Gas,1.7676
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Tata Motors,Automobile,0.3446
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Dr Reddys,Healthcare,6.3947
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),UltraTech Cement,Construction,12.0648
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Zomato,Services,5.9894
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Max Healthcare,Healthcare,4.9935
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),ICICI Bank,Financial Services,4.1007
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Eicher Motors,Automobile,8.931
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Kotak Mahindra Bank,Financial Services,23.9215
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Axis Bank,Financial Services,2.6758
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Titan Company,Consumer Goods,2.9782
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),SBI,Financial Services,0.4913
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Infosys,Information Technology,1.2814
+100003,ICICI Prudential Small Cap Fund - Regular Growth (100003),Hindalco,Metals,5.2981
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Bajaj Finance,Financial Services,13.2575
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Apollo Hospitals,Healthcare,9.2141
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),TCS,Information Technology,0.112
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Cipla,Healthcare,6.1136
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),ONGC,Oil & Gas,13.4998
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),HDFC Bank,Financial Services,6.6317
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),GAIL,Oil & Gas,4.6462
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),ICICI Bank,Financial Services,1.1149
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Asian Paints,Consumer Goods,17.3321
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),LTIMindtree,Information Technology,5.6735
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Titan Company,Consumer Goods,0.6138
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Coal India,Metals,15.1351
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),HCL Tech,Information Technology,4.1894
 100004,Nippon India Flexi Cap Fund - Direct Growth (100004),ITC,Consumer Goods,0.9858
-100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Asian Paints,Consumer Goods,1.4804
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Adani Ports,Services,2.3574
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Cipla,Healthcare,4.7177
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Bajaj Finance,Financial Services,12.4161
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),GAIL,Oil & Gas,17.0072
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Kotak Mahindra Bank,Financial Services,0.614
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),NTPC,Power,8.2304
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Tata Communications,Telecom,0.9358
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Power Grid,Power,0.1301
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Tata Power,Power,0.5287
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),SBI,Financial Services,5.5144
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Wipro,Information Technology,3.0435
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),BPCL,Oil & Gas,0.8122
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),UltraTech Cement,Construction,4.1343
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Adani Green,Power,4.563
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),TCS,Information Technology,9.9541
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Maruti Suzuki,Automobile,7.0053
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),HDFC Bank,Financial Services,4.0329
+100004,Nippon India Flexi Cap Fund - Direct Growth (100004),Infosys,Information Technology,1.4804
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Cipla,Healthcare,2.3574
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),HDFC Bank,Financial Services,4.7177
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),ITC,Consumer Goods,12.4161
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),NTPC,Power,17.0072
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Tata Communications,Telecom,0.614
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),TCS,Information Technology,8.2304
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Tata Power,Power,0.9358
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),SBI,Financial Services,0.1301
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Wipro,Information Technology,0.5287
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),BPCL,Oil & Gas,5.5144
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Bajaj Finance,Financial Services,3.0435
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Maruti Suzuki,Automobile,0.8122
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Adani Ports,Services,4.1343
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Kotak Mahindra Bank,Financial Services,4.563
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),UltraTech Cement,Construction,9.9541
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),GAIL,Oil & Gas,7.0053
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Tech Mahindra,Information Technology,4.0329
 100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Eicher Motors,Automobile,2.5205
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Tech Mahindra,Information Technology,0.0129
-100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),ITC,Consumer Goods,11.4696
-100006,Axis Mid Cap Fund - Direct Growth (100006),Cipla,Healthcare,0.8061
-100006,Axis Mid Cap Fund - Direct Growth (100006),ICICI Bank,Financial Services,11.371
-100006,Axis Mid Cap Fund - Direct Growth (100006),GAIL,Oil & Gas,11.4898
-100006,Axis Mid Cap Fund - Direct Growth (100006),InterGlobe Aviation,Services,2.8243
-100006,Axis Mid Cap Fund - Direct Growth (100006),SBI,Financial Services,4.0748
-100006,Axis Mid Cap Fund - Direct Growth (100006),Bharti Airtel,Telecom,9.5632
-100006,Axis Mid Cap Fund - Direct Growth (100006),Reliance Industries,Oil & Gas,8.5062
-100006,Axis Mid Cap Fund - Direct Growth (100006),Bajaj Finance,Financial Services,2.6645
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Power Grid,Power,0.0129
+100005,Kotak Mahindra Large Cap Fund - Regular Growth (100005),Adani Green,Power,11.4696
+100006,Axis Mid Cap Fund - Direct Growth (100006),Bajaj Finance,Financial Services,0.8061
+100006,Axis Mid Cap Fund - Direct Growth (100006),Reliance Industries,Oil & Gas,11.371
+100006,Axis Mid Cap Fund - Direct Growth (100006),Zomato,Services,11.4898
+100006,Axis Mid Cap Fund - Direct Growth (100006),Cipla,Healthcare,2.8243
+100006,Axis Mid Cap Fund - Direct Growth (100006),GAIL,Oil & Gas,4.0748
+100006,Axis Mid Cap Fund - Direct Growth (100006),InterGlobe Aviation,Services,9.5632
+100006,Axis Mid Cap Fund - Direct Growth (100006),ICICI Bank,Financial Services,8.5062
+100006,Axis Mid Cap Fund - Direct Growth (100006),LTIMindtree,Information Technology,2.6645
 100006,Axis Mid Cap Fund - Direct Growth (100006),Axis Bank,Financial Services,2.2554
 100006,Axis Mid Cap Fund - Direct Growth (100006),Titan Company,Consumer Goods,6.4555
-100006,Axis Mid Cap Fund - Direct Growth (100006),HCL Tech,Information Technology,2.6717
-100006,Axis Mid Cap Fund - Direct Growth (100006),Wipro,Information Technology,6.9153
-100006,Axis Mid Cap Fund - Direct Growth (100006),DLF,Construction,0.821
-100006,Axis Mid Cap Fund - Direct Growth (100006),NTPC,Power,6.5927
-100006,Axis Mid Cap Fund - Direct Growth (100006),Zomato,Services,9.0937
-100006,Axis Mid Cap Fund - Direct Growth (100006),LTIMindtree,Information Technology,13.895
-100007,UTI Small Cap Fund - Regular Growth (100007),Adani Ports,Services,0.7646
-100007,UTI Small Cap Fund - Regular Growth (100007),Cipla,Healthcare,13.3722
-100007,UTI Small Cap Fund - Regular Growth (100007),Grasim Industries,Construction,2.9471
-100007,UTI Small Cap Fund - Regular Growth (100007),ICICI Bank,Financial Services,1.4923
-100007,UTI Small Cap Fund - Regular Growth (100007),Eicher Motors,Automobile,14.7502
-100007,UTI Small Cap Fund - Regular Growth (100007),SBI,Financial Services,7.1626
-100007,UTI Small Cap Fund - Regular Growth (100007),L&T,Construction,6.1222
-100007,UTI Small Cap Fund - Regular Growth (100007),Kotak Mahindra Bank,Financial Services,2.8104
-100007,UTI Small Cap Fund - Regular Growth (100007),Dr Reddys,Healthcare,5.4975
-100007,UTI Small Cap Fund - Regular Growth (100007),Bajaj Auto,Automobile,12.026
-100007,UTI Small Cap Fund - Regular Growth (100007),TCS,Information Technology,5.1329
-100007,UTI Small Cap Fund - Regular Growth (100007),Max Healthcare,Healthcare,7.8917
-100007,UTI Small Cap Fund - Regular Growth (100007),Maruti Suzuki,Automobile,0.3137
-100007,UTI Small Cap Fund - Regular Growth (100007),Coal India,Metals,7.1161
-100007,UTI Small Cap Fund - Regular Growth (100007),IOC,Oil & Gas,2.0783
+100006,Axis Mid Cap Fund - Direct Growth (100006),Bharti Airtel,Telecom,2.6717
+100006,Axis Mid Cap Fund - Direct Growth (100006),HCL Tech,Information Technology,6.9153
+100006,Axis Mid Cap Fund - Direct Growth (100006),SBI,Financial Services,0.821
+100006,Axis Mid Cap Fund - Direct Growth (100006),Wipro,Information Technology,6.5927
+100006,Axis Mid Cap Fund - Direct Growth (100006),NTPC,Power,9.0937
+100006,Axis Mid Cap Fund - Direct Growth (100006),DLF,Construction,13.895
+100007,UTI Small Cap Fund - Regular Growth (100007),Bajaj Auto,Automobile,0.7646
+100007,UTI Small Cap Fund - Regular Growth (100007),Maruti Suzuki,Automobile,13.3722
+100007,UTI Small Cap Fund - Regular Growth (100007),TCS,Information Technology,2.9471
+100007,UTI Small Cap Fund - Regular Growth (100007),Cipla,Healthcare,1.4923
+100007,UTI Small Cap Fund - Regular Growth (100007),Dr Reddys,Healthcare,14.7502
+100007,UTI Small Cap Fund - Regular Growth (100007),Max Healthcare,Healthcare,7.1626
+100007,UTI Small Cap Fund - Regular Growth (100007),IOC,Oil & Gas,6.1222
+100007,UTI Small Cap Fund - Regular Growth (100007),ICICI Bank,Financial Services,2.8104
+100007,UTI Small Cap Fund - Regular Growth (100007),Adani Ports,Services,5.4975
+100007,UTI Small Cap Fund - Regular Growth (100007),L&T,Construction,12.026
+100007,UTI Small Cap Fund - Regular Growth (100007),Kotak Mahindra Bank,Financial Services,5.1329
+100007,UTI Small Cap Fund - Regular Growth (100007),Coal India,Metals,7.8917
+100007,UTI Small Cap Fund - Regular Growth (100007),Grasim Industries,Construction,0.3137
+100007,UTI Small Cap Fund - Regular Growth (100007),SBI,Financial Services,7.1161
+100007,UTI Small Cap Fund - Regular Growth (100007),Eicher Motors,Automobile,2.0783
 100007,UTI Small Cap Fund - Regular Growth (100007),UltraTech Cement,Construction,10.5222
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),ICICI Bank,Financial Services,14.5868
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),GAIL,Oil & Gas,4.0761
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),HCL Tech,Information Technology,0.4378
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),SBI,Financial Services,12.5526
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Reliance Industries,Oil & Gas,6.0812
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Axis Bank,Financial Services,2.8339
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Kotak Mahindra Bank,Financial Services,4.4602
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Tata Motors,Automobile,16.0704
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),ONGC,Oil & Gas,1.6792
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Infosys,Information Technology,0.8103
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Max Healthcare,Healthcare,11.3589
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Asian Paints,Consumer Goods,7.1876
-100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Apollo Hospitals,Healthcare,15.0845
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Apollo Hospitals,Healthcare,14.5868
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Tata Motors,Automobile,4.0761
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),ONGC,Oil & Gas,0.4378
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),GAIL,Oil & Gas,12.5526
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Max Healthcare,Healthcare,6.0812
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Asian Paints,Consumer Goods,2.8339
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),ICICI Bank,Financial Services,4.4602
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Kotak Mahindra Bank,Financial Services,16.0704
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Axis Bank,Financial Services,1.6792
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),HCL Tech,Information Technology,0.8103
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),SBI,Financial Services,11.3589
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Infosys,Information Technology,7.1876
+100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),Reliance Industries,Oil & Gas,15.0845
 100008,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100008),ITC,Consumer Goods,2.7804
-100009,SBI Large Cap Fund - Regular Growth (100009),Adani Ports,Services,3.9269
-100009,SBI Large Cap Fund - Regular Growth (100009),ICICI Bank,Financial Services,1.8674
-100009,SBI Large Cap Fund - Regular Growth (100009),L&T,Construction,2.621
-100009,SBI Large Cap Fund - Regular Growth (100009),Bharti Airtel,Telecom,10.0144
-100009,SBI Large Cap Fund - Regular Growth (100009),Axis Bank,Financial Services,6.6743
-100009,SBI Large Cap Fund - Regular Growth (100009),Kotak Mahindra Bank,Financial Services,0.8599
-100009,SBI Large Cap Fund - Regular Growth (100009),Dr Reddys,Healthcare,14.5553
-100009,SBI Large Cap Fund - Regular Growth (100009),ONGC,Oil & Gas,7.4868
-100009,SBI Large Cap Fund - Regular Growth (100009),Zomato,Services,2.6848
-100009,SBI Large Cap Fund - Regular Growth (100009),Bajaj Auto,Automobile,4.121
-100009,SBI Large Cap Fund - Regular Growth (100009),DLF,Construction,17.2953
-100009,SBI Large Cap Fund - Regular Growth (100009),Infosys,Information Technology,3.1881
-100009,SBI Large Cap Fund - Regular Growth (100009),Max Healthcare,Healthcare,2.6523
-100009,SBI Large Cap Fund - Regular Growth (100009),HDFC Bank,Financial Services,1.9134
-100009,SBI Large Cap Fund - Regular Growth (100009),IOC,Oil & Gas,12.5516
-100009,SBI Large Cap Fund - Regular Growth (100009),LTIMindtree,Information Technology,2.3854
-100009,SBI Large Cap Fund - Regular Growth (100009),ITC,Consumer Goods,5.2021
-100010,HDFC Mid Cap Fund - Direct Growth (100010),ITC,Consumer Goods,7.1625
-100010,HDFC Mid Cap Fund - Direct Growth (100010),Bajaj Finance,Financial Services,4.0244
-100010,HDFC Mid Cap Fund - Direct Growth (100010),Grasim Industries,Construction,2.0461
+100009,SBI Large Cap Fund - Regular Growth (100009),Bajaj Auto,Automobile,3.9269
+100009,SBI Large Cap Fund - Regular Growth (100009),Dr Reddys,Healthcare,1.8674
+100009,SBI Large Cap Fund - Regular Growth (100009),Zomato,Services,2.621
+100009,SBI Large Cap Fund - Regular Growth (100009),ONGC,Oil & Gas,10.0144
+100009,SBI Large Cap Fund - Regular Growth (100009),HDFC Bank,Financial Services,6.6743
+100009,SBI Large Cap Fund - Regular Growth (100009),Max Healthcare,Healthcare,0.8599
+100009,SBI Large Cap Fund - Regular Growth (100009),IOC,Oil & Gas,14.5553
+100009,SBI Large Cap Fund - Regular Growth (100009),Adani Ports,Services,7.4868
+100009,SBI Large Cap Fund - Regular Growth (100009),ICICI Bank,Financial Services,2.6848
+100009,SBI Large Cap Fund - Regular Growth (100009),LTIMindtree,Information Technology,4.121
+100009,SBI Large Cap Fund - Regular Growth (100009),Kotak Mahindra Bank,Financial Services,17.2953
+100009,SBI Large Cap Fund - Regular Growth (100009),Axis Bank,Financial Services,3.1881
+100009,SBI Large Cap Fund - Regular Growth (100009),L&T,Construction,2.6523
+100009,SBI Large Cap Fund - Regular Growth (100009),Bharti Airtel,Telecom,1.9134
+100009,SBI Large Cap Fund - Regular Growth (100009),ITC,Consumer Goods,12.5516
+100009,SBI Large Cap Fund - Regular Growth (100009),Infosys,Information Technology,2.3854
+100009,SBI Large Cap Fund - Regular Growth (100009),DLF,Construction,5.2021
+100010,HDFC Mid Cap Fund - Direct Growth (100010),Bajaj Finance,Financial Services,7.1625
+100010,HDFC Mid Cap Fund - Direct Growth (100010),Tata Motors,Automobile,4.0244
+100010,HDFC Mid Cap Fund - Direct Growth (100010),HDFC Bank,Financial Services,2.0461
 100010,HDFC Mid Cap Fund - Direct Growth (100010),Tata Power,Power,6.037
-100010,HDFC Mid Cap Fund - Direct Growth (100010),SBI,Financial Services,3.9673
-100010,HDFC Mid Cap Fund - Direct Growth (100010),Bharti Airtel,Telecom,2.8706
-100010,HDFC Mid Cap Fund - Direct Growth (100010),Axis Bank,Financial Services,4.222
-100010,HDFC Mid Cap Fund - Direct Growth (100010),IOC,Oil & Gas,17.025
-100010,HDFC Mid Cap Fund - Direct Growth (100010),Kotak Mahindra Bank,Financial Services,0.3979
-100010,HDFC Mid Cap Fund - Direct Growth (100010),Tata Motors,Automobile,14.2797
-100010,HDFC Mid Cap Fund - Direct Growth (100010),Tech Mahindra,Information Technology,0.7484
-100010,HDFC Mid Cap Fund - Direct Growth (100010),DLF,Construction,1.2809
-100010,HDFC Mid Cap Fund - Direct Growth (100010),HDFC Bank,Financial Services,21.457
-100010,HDFC Mid Cap Fund - Direct Growth (100010),Sun Pharma,Healthcare,9.2047
+100010,HDFC Mid Cap Fund - Direct Growth (100010),Sun Pharma,Healthcare,3.9673
+100010,HDFC Mid Cap Fund - Direct Growth (100010),IOC,Oil & Gas,2.8706
+100010,HDFC Mid Cap Fund - Direct Growth (100010),Kotak Mahindra Bank,Financial Services,4.222
+100010,HDFC Mid Cap Fund - Direct Growth (100010),Axis Bank,Financial Services,17.025
+100010,HDFC Mid Cap Fund - Direct Growth (100010),Grasim Industries,Construction,0.3979
+100010,HDFC Mid Cap Fund - Direct Growth (100010),Mahindra & Mahindra,Automobile,14.2797
+100010,HDFC Mid Cap Fund - Direct Growth (100010),Bharti Airtel,Telecom,0.7484
+100010,HDFC Mid Cap Fund - Direct Growth (100010),Tech Mahindra,Information Technology,1.2809
+100010,HDFC Mid Cap Fund - Direct Growth (100010),ITC,Consumer Goods,21.457
+100010,HDFC Mid Cap Fund - Direct Growth (100010),SBI,Financial Services,9.2047
 100010,HDFC Mid Cap Fund - Direct Growth (100010),Hindustan Unilever,Consumer Goods,2.4019
-100010,HDFC Mid Cap Fund - Direct Growth (100010),Mahindra & Mahindra,Automobile,2.8747
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Cipla,Healthcare,3.9946
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),ICICI Bank,Financial Services,14.1948
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),GAIL,Oil & Gas,1.3257
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),SBI,Financial Services,3.9333
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Axis Bank,Financial Services,7.781
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Dr Reddys,Healthcare,1.2377
+100010,HDFC Mid Cap Fund - Direct Growth (100010),DLF,Construction,2.8747
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Bajaj Auto,Automobile,3.9946
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Tata Communications,Telecom,14.1948
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Apollo Hospitals,Healthcare,1.3257
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Infosys,Information Technology,3.9333
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Dr Reddys,Healthcare,7.781
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Cipla,Healthcare,1.2377
 100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),ONGC,Oil & Gas,9.586
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Bajaj Auto,Automobile,4.7681
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Infosys,Information Technology,2.2444
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Tata Communications,Telecom,4.8805
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Coal India,Metals,12.3127
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),HDFC Bank,Financial Services,20.7598
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Apollo Hospitals,Healthcare,1.5461
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),ITC,Consumer Goods,11.2169
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Mahindra & Mahindra,Automobile,0.1841
-100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Asian Paints,Consumer Goods,0.0342
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Adani Green,Power,2.2409
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),GAIL,Oil & Gas,2.2123
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Eicher Motors,Automobile,1.0335
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),SBI,Financial Services,1.1982
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),HCL Tech,Information Technology,5.8323
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Titan Company,Consumer Goods,13.2534
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),HDFC Bank,Financial Services,4.7681
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),GAIL,Oil & Gas,2.2444
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Asian Paints,Consumer Goods,4.8805
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),ICICI Bank,Financial Services,12.3127
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Axis Bank,Financial Services,20.7598
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Coal India,Metals,1.5461
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),Mahindra & Mahindra,Automobile,11.2169
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),SBI,Financial Services,0.1841
+100011,ICICI Prudential Small Cap Fund - Regular Growth (100011),ITC,Consumer Goods,0.0342
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Tata Communications,Telecom,2.2409
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),BPCL,Oil & Gas,2.2123
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Infosys,Information Technology,1.0335
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),HDFC Bank,Financial Services,1.1982
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),GAIL,Oil & Gas,5.8323
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),InterGlobe Aviation,Services,13.2534
 100012,Nippon India Flexi Cap Fund - Direct Growth (100012),IOC,Oil & Gas,0.2903
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Kotak Mahindra Bank,Financial Services,3.5253
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),InterGlobe Aviation,Services,16.2595
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Tech Mahindra,Information Technology,3.9841
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Infosys,Information Technology,2.8622
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),BPCL,Oil & Gas,1.7835
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),NTPC,Power,7.3018
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),HDFC Bank,Financial Services,11.7301
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Grasim Industries,Construction,23.8646
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Tata Communications,Telecom,1.9205
-100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Mahindra & Mahindra,Automobile,0.7075
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Hindalco,Metals,9.8902
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Bajaj Finance,Financial Services,20.0294
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),GAIL,Oil & Gas,3.3978
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Tata Power,Power,0.0837
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),SBI,Financial Services,2.1439
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),ICICI Bank,Financial Services,5.7381
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Axis Bank,Financial Services,0.6536
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Delhivery,Services,0.448
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Bajaj Auto,Automobile,5.3192
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Sun Pharma,Healthcare,10.8115
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Tata Steel,Metals,12.8401
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Max Healthcare,Healthcare,7.8826
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),BPCL,Oil & Gas,5.9298
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Grasim Industries,Construction,0.1971
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Power Grid,Power,3.1552
-100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),HDFC Bank,Financial Services,11.4797
-100014,Axis Mid Cap Fund - Direct Growth (100014),ICICI Bank,Financial Services,6.8591
-100014,Axis Mid Cap Fund - Direct Growth (100014),GAIL,Oil & Gas,1.1656
-100014,Axis Mid Cap Fund - Direct Growth (100014),Eicher Motors,Automobile,0.3908
-100014,Axis Mid Cap Fund - Direct Growth (100014),Bharti Airtel,Telecom,8.7189
-100014,Axis Mid Cap Fund - Direct Growth (100014),Nestle India,Consumer Goods,20.0352
-100014,Axis Mid Cap Fund - Direct Growth (100014),Axis Bank,Financial Services,5.5331
-100014,Axis Mid Cap Fund - Direct Growth (100014),Zomato,Services,17.2711
-100014,Axis Mid Cap Fund - Direct Growth (100014),Tata Motors,Automobile,8.3464
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Tech Mahindra,Information Technology,3.5253
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Kotak Mahindra Bank,Financial Services,16.2595
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Grasim Industries,Construction,3.9841
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Mahindra & Mahindra,Automobile,2.8622
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),HCL Tech,Information Technology,1.7835
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Titan Company,Consumer Goods,7.3018
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),SBI,Financial Services,11.7301
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Eicher Motors,Automobile,23.8646
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),NTPC,Power,1.9205
+100012,Nippon India Flexi Cap Fund - Direct Growth (100012),Adani Green,Power,0.7075
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Bajaj Finance,Financial Services,9.8902
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),BPCL,Oil & Gas,20.0294
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Bajaj Auto,Automobile,3.3978
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Power Grid,Power,0.0837
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),GAIL,Oil & Gas,2.1439
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Max Healthcare,Healthcare,5.7381
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),HDFC Bank,Financial Services,0.6536
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Tata Power,Power,0.448
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Sun Pharma,Healthcare,5.3192
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),ICICI Bank,Financial Services,10.8115
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Delhivery,Services,12.8401
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Axis Bank,Financial Services,7.8826
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Grasim Industries,Construction,5.9298
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),SBI,Financial Services,0.1971
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Hindalco,Metals,3.1552
+100013,Kotak Mahindra Large Cap Fund - Regular Growth (100013),Tata Steel,Metals,11.4797
+100014,Axis Mid Cap Fund - Direct Growth (100014),BPCL,Oil & Gas,6.8591
+100014,Axis Mid Cap Fund - Direct Growth (100014),Infosys,Information Technology,1.1656
+100014,Axis Mid Cap Fund - Direct Growth (100014),Tata Motors,Automobile,0.3908
+100014,Axis Mid Cap Fund - Direct Growth (100014),Zomato,Services,8.7189
+100014,Axis Mid Cap Fund - Direct Growth (100014),HDFC Bank,Financial Services,20.0352
+100014,Axis Mid Cap Fund - Direct Growth (100014),GAIL,Oil & Gas,5.5331
+100014,Axis Mid Cap Fund - Direct Growth (100014),ICICI Bank,Financial Services,17.2711
+100014,Axis Mid Cap Fund - Direct Growth (100014),LTIMindtree,Information Technology,8.3464
 100014,Axis Mid Cap Fund - Direct Growth (100014),Tech Mahindra,Information Technology,1.3546
-100014,Axis Mid Cap Fund - Direct Growth (100014),Infosys,Information Technology,0.5429
-100014,Axis Mid Cap Fund - Direct Growth (100014),BPCL,Oil & Gas,7.7267
-100014,Axis Mid Cap Fund - Direct Growth (100014),Coal India,Metals,5.0309
-100014,Axis Mid Cap Fund - Direct Growth (100014),HDFC Bank,Financial Services,7.8246
-100014,Axis Mid Cap Fund - Direct Growth (100014),LTIMindtree,Information Technology,5.9157
-100014,Axis Mid Cap Fund - Direct Growth (100014),UltraTech Cement,Construction,3.2844
-100015,UTI Small Cap Fund - Regular Growth (100015),ICICI Bank,Financial Services,15.542
-100015,UTI Small Cap Fund - Regular Growth (100015),Eicher Motors,Automobile,3.0368
-100015,UTI Small Cap Fund - Regular Growth (100015),SBI,Financial Services,3.0009
-100015,UTI Small Cap Fund - Regular Growth (100015),Bharti Airtel,Telecom,6.76
-100015,UTI Small Cap Fund - Regular Growth (100015),Nestle India,Consumer Goods,1.6712
-100015,UTI Small Cap Fund - Regular Growth (100015),HCL Tech,Information Technology,7.54
-100015,UTI Small Cap Fund - Regular Growth (100015),Kotak Mahindra Bank,Financial Services,12.3271
-100015,UTI Small Cap Fund - Regular Growth (100015),Axis Bank,Financial Services,1.7366
-100015,UTI Small Cap Fund - Regular Growth (100015),Mahindra & Mahindra,Automobile,24.1791
-100015,UTI Small Cap Fund - Regular Growth (100015),Wipro,Information Technology,5.3391
-100015,UTI Small Cap Fund - Regular Growth (100015),Tech Mahindra,Information Technology,1.8736
-100015,UTI Small Cap Fund - Regular Growth (100015),ONGC,Oil & Gas,0.5285
-100015,UTI Small Cap Fund - Regular Growth (100015),TCS,Information Technology,2.5762
-100015,UTI Small Cap Fund - Regular Growth (100015),Max Healthcare,Healthcare,4.8947
-100015,UTI Small Cap Fund - Regular Growth (100015),LTIMindtree,Information Technology,4.9691
-100015,UTI Small Cap Fund - Regular Growth (100015),ITC,Consumer Goods,1.7454
-100015,UTI Small Cap Fund - Regular Growth (100015),UltraTech Cement,Construction,2.2797
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Bajaj Finance,Financial Services,2.7988
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),GAIL,Oil & Gas,1.5841
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Kotak Mahindra Bank,Financial Services,4.6079
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),NTPC,Power,3.0332
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),IOC,Oil & Gas,4.5801
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Power Grid,Power,1.0274
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Hindalco,Metals,3.6833
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),ICICI Bank,Financial Services,8.8422
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Axis Bank,Financial Services,3.6085
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Wipro,Information Technology,4.8074
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Tata Steel,Metals,12.3566
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Infosys,Information Technology,8.9593
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),TCS,Information Technology,1.0494
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Maruti Suzuki,Automobile,6.9773
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Grasim Industries,Construction,16.1153
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),HDFC Bank,Financial Services,6.4023
+100014,Axis Mid Cap Fund - Direct Growth (100014),Axis Bank,Financial Services,0.5429
+100014,Axis Mid Cap Fund - Direct Growth (100014),Coal India,Metals,7.7267
+100014,Axis Mid Cap Fund - Direct Growth (100014),Bharti Airtel,Telecom,5.0309
+100014,Axis Mid Cap Fund - Direct Growth (100014),Eicher Motors,Automobile,7.8246
+100014,Axis Mid Cap Fund - Direct Growth (100014),UltraTech Cement,Construction,5.9157
+100014,Axis Mid Cap Fund - Direct Growth (100014),Nestle India,Consumer Goods,3.2844
+100015,UTI Small Cap Fund - Regular Growth (100015),TCS,Information Technology,15.542
+100015,UTI Small Cap Fund - Regular Growth (100015),ONGC,Oil & Gas,3.0368
+100015,UTI Small Cap Fund - Regular Growth (100015),Max Healthcare,Healthcare,3.0009
+100015,UTI Small Cap Fund - Regular Growth (100015),ICICI Bank,Financial Services,6.76
+100015,UTI Small Cap Fund - Regular Growth (100015),LTIMindtree,Information Technology,1.6712
+100015,UTI Small Cap Fund - Regular Growth (100015),Kotak Mahindra Bank,Financial Services,7.54
+100015,UTI Small Cap Fund - Regular Growth (100015),Axis Bank,Financial Services,12.3271
+100015,UTI Small Cap Fund - Regular Growth (100015),Tech Mahindra,Information Technology,1.7366
+100015,UTI Small Cap Fund - Regular Growth (100015),Bharti Airtel,Telecom,24.1791
+100015,UTI Small Cap Fund - Regular Growth (100015),Mahindra & Mahindra,Automobile,5.3391
+100015,UTI Small Cap Fund - Regular Growth (100015),HCL Tech,Information Technology,1.8736
+100015,UTI Small Cap Fund - Regular Growth (100015),SBI,Financial Services,0.5285
+100015,UTI Small Cap Fund - Regular Growth (100015),Eicher Motors,Automobile,2.5762
+100015,UTI Small Cap Fund - Regular Growth (100015),Wipro,Information Technology,4.8947
+100015,UTI Small Cap Fund - Regular Growth (100015),ITC,Consumer Goods,4.9691
+100015,UTI Small Cap Fund - Regular Growth (100015),UltraTech Cement,Construction,1.7454
+100015,UTI Small Cap Fund - Regular Growth (100015),Nestle India,Consumer Goods,2.2797
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),HDFC Bank,Financial Services,2.7988
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),NTPC,Power,1.5841
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Tata Steel,Metals,4.6079
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),TCS,Information Technology,3.0332
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Mahindra & Mahindra,Automobile,4.5801
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Infosys,Information Technology,1.0274
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Wipro,Information Technology,3.6833
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Bajaj Finance,Financial Services,8.8422
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Maruti Suzuki,Automobile,3.6085
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),IOC,Oil & Gas,4.8074
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),ICICI Bank,Financial Services,12.3566
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Kotak Mahindra Bank,Financial Services,8.9593
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Axis Bank,Financial Services,1.0494
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Reliance Industries,Oil & Gas,6.9773
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Hindalco,Metals,16.1153
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),GAIL,Oil & Gas,6.4023
 100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),LTIMindtree,Information Technology,0.5673
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Mahindra & Mahindra,Automobile,3.9868
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),L&T,Construction,4.356
-100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Reliance Industries,Oil & Gas,0.6568
-100017,SBI Large Cap Fund - Regular Growth (100017),ICICI Bank,Financial Services,0.8388
-100017,SBI Large Cap Fund - Regular Growth (100017),Eicher Motors,Automobile,16.6571
-100017,SBI Large Cap Fund - Regular Growth (100017),IOC,Oil & Gas,0.9161
-100017,SBI Large Cap Fund - Regular Growth (100017),Kotak Mahindra Bank,Financial Services,2.3343
-100017,SBI Large Cap Fund - Regular Growth (100017),Wipro,Information Technology,4.5445
-100017,SBI Large Cap Fund - Regular Growth (100017),Bajaj Auto,Automobile,16.6207
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),L&T,Construction,3.9868
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Grasim Industries,Construction,4.356
+100016,Aditya Birla Sun Life Flexi Cap Fund - Direct Growth (100016),Power Grid,Power,0.6568
+100017,SBI Large Cap Fund - Regular Growth (100017),Bajaj Auto,Automobile,0.8388
+100017,SBI Large Cap Fund - Regular Growth (100017),BPCL,Oil & Gas,16.6571
+100017,SBI Large Cap Fund - Regular Growth (100017),Tata Communications,Telecom,0.9161
+100017,SBI Large Cap Fund - Regular Growth (100017),IOC,Oil & Gas,2.3343
+100017,SBI Large Cap Fund - Regular Growth (100017),ICICI Bank,Financial Services,4.5445
+100017,SBI Large Cap Fund - Regular Growth (100017),LTIMindtree,Information Technology,16.6207
 100017,SBI Large Cap Fund - Regular Growth (100017),Tech Mahindra,Information Technology,6.0552
-100017,SBI Large Cap Fund - Regular Growth (100017),BPCL,Oil & Gas,12.759
-100017,SBI Large Cap Fund - Regular Growth (100017),Tata Communications,Telecom,17.4444
+100017,SBI Large Cap Fund - Regular Growth (100017),Kotak Mahindra Bank,Financial Services,12.759
+100017,SBI Large Cap Fund - Regular Growth (100017),Grasim Industries,Construction,17.4444
 100017,SBI Large Cap Fund - Regular Growth (100017),Coal India,Metals,8.4705
-100017,SBI Large Cap Fund - Regular Growth (100017),Grasim Industries,Construction,4.0357
-100017,SBI Large Cap Fund - Regular Growth (100017),LTIMindtree,Information Technology,3.0135
-100017,SBI Large Cap Fund - Regular Growth (100017),ITC,Consumer Goods,1.975
-100017,SBI Large Cap Fund - Regular Growth (100017),Mahindra & Mahindra,Automobile,4.3353
-100018,HDFC Mid Cap Fund - Direct Growth (100018),LTIMindtree,Information Technology,6.4823
+100017,SBI Large Cap Fund - Regular Growth (100017),Mahindra & Mahindra,Automobile,4.0357
+100017,SBI Large Cap Fund - Regular Growth (100017),ITC,Consumer Goods,3.0135
+100017,SBI Large Cap Fund - Regular Growth (100017),Eicher Motors,Automobile,1.975
+100017,SBI Large Cap Fund - Regular Growth (100017),Wipro,Information Technology,4.3353
+100018,HDFC Mid Cap Fund - Direct Growth (100018),BPCL,Oil & Gas,6.4823
 100018,HDFC Mid Cap Fund - Direct Growth (100018),Hindalco,Metals,3.3144
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Cipla,Healthcare,2.9761
-100018,HDFC Mid Cap Fund - Direct Growth (100018),GAIL,Oil & Gas,3.6041
-100018,HDFC Mid Cap Fund - Direct Growth (100018),SBI,Financial Services,1.4533
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Bharti Airtel,Telecom,3.7028
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Nestle India,Consumer Goods,14.3838
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Kotak Mahindra Bank,Financial Services,2.1031
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Dr Reddys,Healthcare,3.4529
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Wipro,Information Technology,6.3576
-100018,HDFC Mid Cap Fund - Direct Growth (100018),TCS,Information Technology,8.9234
-100018,HDFC Mid Cap Fund - Direct Growth (100018),BPCL,Oil & Gas,0.0558
-100018,HDFC Mid Cap Fund - Direct Growth (100018),NTPC,Power,6.6785
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Coal India,Metals,0.9476
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Max Healthcare,Healthcare,8.3397
-100018,HDFC Mid Cap Fund - Direct Growth (100018),JSW Steel,Metals,0.8945
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Apollo Hospitals,Healthcare,8.4895
-100018,HDFC Mid Cap Fund - Direct Growth (100018),Asian Paints,Consumer Goods,17.8405
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Hindalco,Metals,18.8006
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Bajaj Finance,Financial Services,6.4354
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),ICICI Bank,Financial Services,7.0283
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),InterGlobe Aviation,Services,5.9383
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),SBI,Financial Services,3.027
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Reliance Industries,Oil & Gas,11.1091
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Nestle India,Consumer Goods,0.467
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Kotak Mahindra Bank,Financial Services,3.1942
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Dr Reddys,Healthcare,10.4678
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Delhivery,Services,0.3284
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Wipro,Information Technology,0.2517
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Sun Pharma,Healthcare,4.5072
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Max Healthcare,Healthcare,2.7951
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Maruti Suzuki,Automobile,11.665
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Coal India,Metals,13.6283
-100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),IOC,Oil & Gas,0.3567
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),ICICI Bank,Financial Services,3.6519
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Apollo Hospitals,Healthcare,2.9761
+100018,HDFC Mid Cap Fund - Direct Growth (100018),TCS,Information Technology,3.6041
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Dr Reddys,Healthcare,1.4533
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Cipla,Healthcare,3.7028
+100018,HDFC Mid Cap Fund - Direct Growth (100018),GAIL,Oil & Gas,14.3838
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Max Healthcare,Healthcare,2.1031
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Asian Paints,Consumer Goods,3.4529
+100018,HDFC Mid Cap Fund - Direct Growth (100018),LTIMindtree,Information Technology,6.3576
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Kotak Mahindra Bank,Financial Services,8.9234
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Coal India,Metals,0.0558
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Bharti Airtel,Telecom,6.6785
+100018,HDFC Mid Cap Fund - Direct Growth (100018),SBI,Financial Services,0.9476
+100018,HDFC Mid Cap Fund - Direct Growth (100018),JSW Steel,Metals,8.3397
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Wipro,Information Technology,0.8945
+100018,HDFC Mid Cap Fund - Direct Growth (100018),NTPC,Power,8.4895
+100018,HDFC Mid Cap Fund - Direct Growth (100018),Nestle India,Consumer Goods,17.8405
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Bajaj Finance,Financial Services,18.8006
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Hindalco,Metals,6.4354
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Maruti Suzuki,Automobile,7.0283
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Dr Reddys,Healthcare,5.9383
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Max Healthcare,Healthcare,3.027
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),InterGlobe Aviation,Services,11.1091
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),IOC,Oil & Gas,0.467
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Delhivery,Services,3.1942
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),ICICI Bank,Financial Services,10.4678
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Sun Pharma,Healthcare,0.3284
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Kotak Mahindra Bank,Financial Services,0.2517
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Coal India,Metals,4.5072
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),SBI,Financial Services,2.7951
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Reliance Industries,Oil & Gas,11.665
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Wipro,Information Technology,13.6283
+100019,ICICI Prudential Small Cap Fund - Regular Growth (100019),Nestle India,Consumer Goods,0.3567
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),BPCL,Oil & Gas,3.6519
 100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Bajaj Finance,Financial Services,1.2256
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Grasim Industries,Construction,2.4326
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),SBI,Financial Services,0.6533
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),ONGC,Oil & Gas,2.4326
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),HDFC Bank,Financial Services,0.6533
 100020,Nippon India Flexi Cap Fund - Direct Growth (100020),IOC,Oil & Gas,8.6881
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Kotak Mahindra Bank,Financial Services,0.3635
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Coal India,Metals,6.6123
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Delhivery,Services,23.218
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),ONGC,Oil & Gas,15.2259
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Tech Mahindra,Information Technology,0.5868
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Infosys,Information Technology,9.7114
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),BPCL,Oil & Gas,9.0764
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),HDFC Bank,Financial Services,2.7456
-100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Mahindra & Mahindra,Automobile,0.897
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),ICICI Bank,Financial Services,0.3635
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Delhivery,Services,6.6123
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Tech Mahindra,Information Technology,23.218
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Kotak Mahindra Bank,Financial Services,15.2259
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Coal India,Metals,0.5868
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Mahindra & Mahindra,Automobile,9.7114
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Grasim Industries,Construction,9.0764
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),SBI,Financial Services,2.7456
+100020,Nippon India Flexi Cap Fund - Direct Growth (100020),Infosys,Information Technology,0.897
 100020,Nippon India Flexi Cap Fund - Direct Growth (100020),UltraTech Cement,Construction,14.9117

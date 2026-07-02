@@ -534,24 +534,81 @@ txn_records = []
 states = ['Maharashtra', 'Gujarat', 'Karnataka', 'Tamil Nadu', 'Delhi', 'Uttar Pradesh', 'West Bengal', 'Telangana', 'Haryana', 'Bihar']
 states_prob = [0.22, 0.15, 0.12, 0.10, 0.08, 0.08, 0.07, 0.06, 0.06, 0.06]
 
-# Map schemes to subcategories/categories for picking suitable transaction amounts
 amfi_codes = df_fund_master["amfi_code"].tolist()
 nav_dict = df_nav_history.set_index(['amfi_code', 'date'])['nav'].to_dict()
 
-# We'll generate 2000 transactions over 2024-2026
+# We'll generate regular monthly SIPs for investors INV10000 to INV10199 (200 investors)
+regular_sip_investors = 200
+txn_counter = 0
+
+for j in range(regular_sip_investors):
+    inv_id = f"INV{10000 + j}"
+    inv_name = f"Investor_{j}"
+    state = np.random.choice(states, p=states_prob)
+    amfi = int(np.random.choice(amfi_codes))
+    
+    # Choose a fixed monthly SIP amount
+    sip_amount = round(float(np.random.uniform(1000.0, 15000.0)), 2)
+    
+    # Start date in early 2024 (first 150 days)
+    start_days_offset = np.random.randint(0, 150)
+    curr_date = pd.Timestamp('2024-01-01') + pd.Timedelta(days=start_days_offset)
+    end_date_limit = pd.Timestamp('2026-06-15')
+    
+    kyc = np.random.choice(['Verified', 'Pending', 'Failed'], p=[0.88, 0.10, 0.02])
+    
+    while curr_date <= end_date_limit:
+        t_date_str = curr_date.strftime('%Y-%m-%d')
+        
+        # Look up NAV
+        nav = nav_dict.get((amfi, t_date_str))
+        if nav is None or nav <= 0:
+            nav = base_navs[amfi]
+            
+        units = round(sip_amount / nav, 4)
+        
+        txn_id = f"TXN{20000 + txn_counter}"
+        txn_records.append({
+            "transaction_id": txn_id,
+            "investor_id": inv_id,
+            "investor_name": inv_name,
+            "state": state,
+            "amfi_code": amfi,
+            "transaction_date": t_date_str,
+            "transaction_type": "SIP",
+            "amount": sip_amount,
+            "kyc_status": kyc,
+            "units": units
+        })
+        txn_counter += 1
+        
+        # Next monthly transaction date: normal monthly gap is ~30 days.
+        # Missed month with 12% probability
+        if np.random.rand() < 0.12:
+            gap_days = np.random.randint(58, 65) # missed a month
+        else:
+            gap_days = np.random.randint(28, 33) # regular monthly
+            
+        curr_date = curr_date + pd.Timedelta(days=gap_days)
+
+print(f"Generated {txn_counter} regular SIP transactions for {regular_sip_investors} investors.")
+
+# Now for the remaining investors INV10200 to INV11499 (1300 investors),
+# let's generate random lumpsum and redemptions, and some occasional SIPs.
+# We will generate about 3,500 random transactions to maintain data size.
 txn_dates = pd.date_range('2024-01-01', '2026-06-15')
 
-for i in range(2500):
-    txn_id = f"TXN{20000 + i}"
-    inv_id = f"INV{10000 + (i % 1500)}"
-    inv_name = f"Investor_{i % 1500}"
+for k in range(3500):
+    inv_idx = np.random.randint(200, 1500) # INV10200 to INV11499
+    inv_id = f"INV{10000 + inv_idx}"
+    inv_name = f"Investor_{inv_idx}"
     state = np.random.choice(states, p=states_prob)
     amfi = int(np.random.choice(amfi_codes))
     
     t_date = np.random.choice(txn_dates)
     t_date_str = pd.Timestamp(t_date).strftime('%Y-%m-%d')
     
-    txn_type = np.random.choice(['SIP', 'Lumpsum', 'Redemption'], p=[0.70, 0.20, 0.10])
+    txn_type = np.random.choice(['SIP', 'Lumpsum', 'Redemption'], p=[0.40, 0.40, 0.20])
     
     if txn_type == 'SIP':
         amount = round(float(np.random.uniform(500.0, 15000.0)), 2)
@@ -562,14 +619,13 @@ for i in range(2500):
         
     kyc = np.random.choice(['Verified', 'Pending', 'Failed'], p=[0.85, 0.12, 0.03])
     
-    # Look up NAV
     nav = nav_dict.get((amfi, t_date_str))
     if nav is None or nav <= 0:
-        # Fallback to general start NAV
         nav = base_navs[amfi]
         
     units = round(amount / nav, 4)
     
+    txn_id = f"TXN{20000 + txn_counter}"
     txn_records.append({
         "transaction_id": txn_id,
         "investor_id": inv_id,
@@ -582,6 +638,7 @@ for i in range(2500):
         "kyc_status": kyc,
         "units": units
     })
+    txn_counter += 1
 
 df_txn = pd.DataFrame(txn_records)
 df_txn.to_csv('data/processed/investor_transactions.csv', index=False)
